@@ -1,7 +1,7 @@
-import { useState } from 'react';
-import './App.css';
 
-function App () {
+import "./css/App.css";
+
+const App = () => {
   return (
     <div className="App">
       <p>
@@ -9,6 +9,6 @@ function App () {
       </p>
     </div>
   );
-}
+};
 
 export default App;
